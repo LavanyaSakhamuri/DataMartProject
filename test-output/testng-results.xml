@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T13:38:14Z" name="Default suite" finished-at="2022-06-09T13:38:14Z" duration-ms="59">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T13:38:14Z" name="Default test" finished-at="2022-06-09T13:38:14Z" duration-ms="59">
+      <class name="Gomo.NonUAM">
+        <test-method is-config="true" signature="start()[pri:0, instance:Gomo.NonUAM@6236eb5f]" started-at="2022-06-09T19:07:59Z" name="start" finished-at="2022-06-09T19:08:14Z" duration-ms="14823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="ChangeStatus_Cannotpublish()[pri:0, instance:Gomo.NonUAM@6236eb5f]" started-at="2022-06-09T19:08:14Z" name="ChangeStatus_Cannotpublish" finished-at="2022-06-09T19:08:14Z" duration-ms="21" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\KAVYA\eclipse-workspace\DataMart\Results\DataMart_09062022_190665\DataMart\DataMart.xlsx (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\KAVYA\eclipse-workspace\DataMart\Results\DataMart_09062022_190665\DataMart\DataMart.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at utility.Generic.WriteTestCase(Generic.java:299)
+	at Gomo.NonUAM.ChangeStatus_Cannotpublish(NonUAM.java:261)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeStatus_Cannotpublish -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Gomo.NonUAM@6236eb5f]" started-at="2022-06-09T19:08:14Z" name="End" finished-at="2022-06-09T19:08:25Z" duration-ms="11427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- Gomo.NonUAM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

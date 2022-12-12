@@ -1,4 +1,4 @@
-package Gomo;
+package datamart;
 
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;

@@ -1,11 +1,5 @@
-package Gomo;
+package datamart;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
